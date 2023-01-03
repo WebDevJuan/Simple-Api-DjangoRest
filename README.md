@@ -58,3 +58,11 @@ En mi caso he utilizado la extensión de Thunder Client de VSCode https://market
 } `
 
 Mas información en https://www.django-rest-framework.org/
+
+## Documentación para el deploy
+
+https://render.com/docs/deploy-django
+
+### Url del API
+
+https://drfcrud-test.onrender.com/
