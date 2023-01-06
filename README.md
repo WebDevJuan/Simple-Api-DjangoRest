@@ -3,6 +3,16 @@
 ## Instalación
 Para instalar el entorno virtual es necesario tener instalado, te recomiendo instalarlo desde python https://www.python.org/downloads/ y desactivado el modo restringido para la ejecución de scripts en windows para ello es necesario ejecutar la power shell de windows en modo administrador, te dejo los pasos en el siguiente artículo https://www.alexmedina.net/habilitar-la-ejecucion-de-scripts-para-powershell/#:~:text=Para%20cambiar%20esta%20configuraci%C3%B3n%20basta,ya%20aparece%20como%20%C2%ABUnrestricted%C2%BB.
 
+Para poner en marcha la aplicación es necesario instalar las dependencías situadas en el fichero requirements.txt, para ello ejecutaremos el siguiente comando:
+
+    pip install -r requirements.txt
+
+## Version Django
+
+Django version **4.1.4**
+
+Python version **3.11.1**
+
 ### Windows (instalación entorno sobre el proyecto)
 
 Comandos de instalación
@@ -16,10 +26,6 @@ Activar el entorno
 ### Otras alternativas (entorno global)
 
 https://developer.mozilla.org/es/docs/Learn/Server-side/Django/development_environment
-
-## Version Django
-Django version **4.1.4**
-Python version **3.11.1**
 
 ## Consultas a través de interfaz de DJANGO API REST
 
