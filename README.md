@@ -1,11 +1,23 @@
 # Crud API Django Rest Framework
 
 ## Instalación
-Para instalar el entorno virtual es necesario tener instalado, te recomiendo instalarlo desde python https://www.python.org/downloads/ y desactivado el modo restringido para la ejecución de scripts en windows para ello es necesario ejecutar la power shell de windows en modo administrador, te dejo los pasos en el siguiente artículo https://www.alexmedina.net/habilitar-la-ejecucion-de-scripts-para-powershell/#:~:text=Para%20cambiar%20esta%20configuraci%C3%B3n%20basta,ya%20aparece%20como%20%C2%ABUnrestricted%C2%BB.
+Para instalar el entorno virtual es necesario tener instalado python, te recomiendo instalarlo desde python https://www.python.org/downloads/ y desactivado el modo restringido para la ejecución de scripts en windows para ello es necesario ejecutar la power shell de windows en modo administrador, te dejo los pasos en el siguiente artículo https://www.alexmedina.net/habilitar-la-ejecucion-de-scripts-para-powershell/#:~:text=Para%20cambiar%20esta%20configuraci%C3%B3n%20basta,ya%20aparece%20como%20%C2%ABUnrestricted%C2%BB.
 
-Para poner en marcha la aplicación es necesario instalar las dependencías situadas en el fichero requirements.txt, para ello ejecutaremos el siguiente comando:
+Nos situamos sobre el repositorio descargado y creamos en entorno virtual 
+
+    py -m virtualenv venv
+
+Una vez creado el entorno lo activamos con el comando 
+
+	.\venv\Scripts\activate
+
+Finalmente para poner en marcha la aplicación es necesario instalar las dependencías situadas en el fichero requirements.txt, para ello ejecutaremos el siguiente comando:
 
     pip install -r requirements.txt
+
+Iniciar la aplicación, situandose en el directorio con el fichero manage.py y ejecutar el comando:
+
+    python manage.py runserver
 
 ## Version Django
 
@@ -69,6 +81,6 @@ Mas información en https://www.django-rest-framework.org/
 
 https://render.com/docs/deploy-django
 
-### Url del API
+### Url del API desplegado render.com
 
 https://drfcrud-test.onrender.com/
